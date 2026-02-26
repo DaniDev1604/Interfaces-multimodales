@@ -15,8 +15,6 @@ except:
 texto = st.text_input("Escribe algo", "Este es el texto")
 st.write("El texto escrito es:", texto)
 
----
-
 st.subheader("Ahora usemos 2 columnas")
 col1, col2 = st.columns(2)
 
