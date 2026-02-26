@@ -20,4 +20,15 @@ with col1:
   resp = st.checkbox("De acuerdo")
   if resp:
     st.write("correcto")    
-    
+
+
+with col2:
+  st.subheader("columna 2")
+   
+  modo = st.radio("Modalidad principal en la interfaz",("Visual", "Auditiva", "Tactil"))
+  if modo == "Visual":
+    st.write("vista fundamental para la interfaz")    
+ if modo == "Auditivo":
+    st.write("audio fundamental para la interfaz") 
+ if modo == "Tactil":
+    st.write("tacto fundamental para la interfaz") 
