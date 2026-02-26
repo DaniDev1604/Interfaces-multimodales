@@ -1,5 +1,6 @@
 import streamlit as st
-from PIL from Image
+from PIL import Image
+
 st.title("Desarrollado por Dani")
 
 st.header("Pàgina desarrollada como ejemplo de caso para la clase creaciòn de interfaces multimodales")
